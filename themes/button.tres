@@ -1,0 +1,10 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://bsjcxf4876noa"]
+
+[ext_resource type="FontFile" uid="uid://cd55ixd2bqhgs" path="res://assets/fonts/monogram.ttf" id="1_letmx"]
+
+[resource]
+default_font = ExtResource("1_letmx")
+default_font_size = 30
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/font_sizes/font_size = 30
+Button/fonts/monogram = ExtResource("1_letmx")

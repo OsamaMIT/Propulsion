@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://lhkwhmy0pfr3"]
+
+[ext_resource type="Script" path="res://scripts/score.gd" id="1_itvs3"]
+[ext_resource type="Theme" uid="uid://b4lwrp76mgmre" path="res://themes/default.tres" id="2_mgbm4"]
+
+[node name="Score" type="CanvasLayer"]
+script = ExtResource("1_itvs3")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 1048.0
+offset_top = 25.0
+offset_right = 1130.0
+offset_bottom = 127.0
+theme = ExtResource("2_mgbm4")
+theme_override_font_sizes/font_size = 80
+text = "0"

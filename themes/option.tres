@@ -1,0 +1,32 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://yld0bawr4leu"]
+
+[ext_resource type="FontFile" uid="uid://c7x4c5iicni7i" path="res://assets/fonts/monogram.ttf" id="1_602b5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hlcjv"]
+content_margin_left = 30.0
+content_margin_top = 5.0
+content_margin_right = 150.0
+content_margin_bottom = 5.0
+bg_color = Color(0.470588, 0.533333, 0.74902, 0.490196)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fg76o"]
+content_margin_left = 30.0
+content_margin_top = 5.0
+content_margin_right = 150.0
+content_margin_bottom = 5.0
+bg_color = Color(0.470588, 0.533333, 0.74902, 0.490196)
+border_color = Color(0.678277, 0.789385, 0.9033, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h27h4"]
+content_margin_left = 30.0
+content_margin_top = 5.0
+content_margin_right = 150.0
+content_margin_bottom = 5.0
+bg_color = Color(0.470588, 0.533333, 0.74902, 0.490196)
+
+[resource]
+OptionButton/font_sizes/font_size = 80
+OptionButton/fonts/font = ExtResource("1_602b5")
+OptionButton/styles/hover = SubResource("StyleBoxFlat_hlcjv")
+OptionButton/styles/normal = SubResource("StyleBoxFlat_fg76o")
+OptionButton/styles/pressed = SubResource("StyleBoxFlat_h27h4")

@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://bo2kb0x1s3pjw"]
+
+[ext_resource type="Texture2D" uid="uid://ct3t4jcbdgc24" path="res://assets/ui/up.png" id="1_8mlm4"]
+[ext_resource type="Texture2D" uid="uid://cpdf62o056ins" path="res://assets/ui/down.png" id="2_6a567"]
+
+[node name="Mobile" type="CanvasLayer"]
+
+[node name="up" type="TouchScreenButton" parent="."]
+position = Vector2(62, 428)
+scale = Vector2(5, 5)
+texture_normal = ExtResource("1_8mlm4")
+shape_centered = false
+passby_press = true
+action = "up"
+visibility_mode = 1
+
+[node name="down" type="TouchScreenButton" parent="."]
+position = Vector2(62, 528)
+scale = Vector2(5, 5)
+texture_normal = ExtResource("2_6a567")
+shape_centered = false
+passby_press = true
+action = "down"
+visibility_mode = 1

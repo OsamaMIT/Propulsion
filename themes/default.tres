@@ -1,0 +1,19 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://b4lwrp76mgmre"]
+
+[ext_resource type="FontFile" uid="uid://c7x4c5iicni7i" path="res://assets/fonts/monogram.ttf" id="1_3r5ey"]
+[ext_resource type="StyleBox" uid="uid://dhl5qpd8hcmyq" path="res://themes/hover.tres" id="2_lsh0c"]
+[ext_resource type="StyleBox" uid="uid://cfg7ggk8pgbye" path="res://themes/flat.tres" id="3_8vjqv"]
+[ext_resource type="StyleBox" uid="uid://qxkx8tc0r311" path="res://themes/pressed.tres" id="4_tbl7y"]
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/constants/h_separation = -1
+Button/font_sizes/font_size = 64
+Button/fonts/font = ExtResource("1_3r5ey")
+Button/styles/hover = ExtResource("2_lsh0c")
+Button/styles/normal = ExtResource("3_8vjqv")
+Button/styles/pressed = ExtResource("4_tbl7y")
+Label/colors/font_shadow_color = Color(0.0361009, 0.0361009, 0.0361009, 0.976471)
+Label/constants/shadow_outline_size = 50
+Label/font_sizes/font_size = 128
+Label/fonts/font = ExtResource("1_3r5ey")
